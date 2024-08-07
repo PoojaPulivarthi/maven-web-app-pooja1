@@ -5,4 +5,4 @@ FROM tomcat:9.0
 EXPOSE 9090
 
 # Copy the war file to the webapps directory of Tomcat
-ADD target/maven-web-app.war /home/ubuntu/apache-tomcat-9.0.93/webapps
+ADD target/maven-web-app.war /usr/local/tomcat/webapps/
